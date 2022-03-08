@@ -6,12 +6,18 @@
   box-sizing: border-box;
 }
 
+/* /GENERALE */
+
+/* HEADER */
+
 header{
   position: fixed;
+  z-index: 999;
   width: 100%;
-  text-align: right;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  text-align: right;  
 }
+
+/* Bottoni */
 
 nav ul li{
   list-style: none;
@@ -25,14 +31,19 @@ li button{
   border: none;
   background-color:white;
   box-shadow: 0px 0px 5px black;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 button:hover{
   cursor: pointer;
 }
 
-/* MAIN */
+/* /Bottoni */
+/* /HEADER */
 
+/* MAIN */
+/* Immagini e sfondo */
 .box{
   position: relative;
   width: calc(100%-20);
@@ -58,7 +69,9 @@ div img{
   left: 50%;
   transform: translate(-40%,-50%);
 }
+/* /Immagini e sfondo */
 
+/* Testo */
 .text{
   position: absolute;
   width: 40%;
@@ -78,3 +91,5 @@ div img{
 #text-3{
   color: green;
 }
+
+/* /Testo */
