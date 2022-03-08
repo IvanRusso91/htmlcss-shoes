@@ -8,7 +8,6 @@
 
 header{
   position: fixed;
-  height: 50px;
   width: 100%;
   text-align: right;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -34,3 +33,48 @@ button:hover{
 
 /* MAIN */
 
+.box{
+  position: relative;
+  width: calc(100%-20);
+  margin: 10px auto;
+  height: calc(100vh - 20px);
+}
+
+.primo{
+  background-color: red;
+}
+
+.secondo{
+ background-color: green;
+}
+
+.terzo{
+  background-color: yellow;
+}
+
+div img{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%,-50%);
+}
+
+.text{
+  position: absolute;
+  width: 40%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-40%,-50%);
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+}
+
+#text-1, #text-2{
+  color: yellow;
+}
+
+#text-3{
+  color: green;
+}
